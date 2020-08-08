@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Login Register</string>
+
+    <string name="desc_app">Join our community of 10+ million people all over the world</string>
+    <string name="desc_of_image_line">Image of line</string>
+    <string name="desc_of_image_succesLogin">image succes login</string>
+    <string name="desc_of_login">Login to your account</string>
+    <string name="desc_of_register">Here\'s your first step with us!</string>
+    <string name="desc_of_home">Wellcome,</string>
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="logout">logout</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="nim">NIM</string>
+    <string name="email">Email</string>
+
+    <string name="remember_me">Remember me</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="have_an_account">Have an Account?</string>
+    <string name="login_success">congratulations you have successfully registered on the MEET UP application</string>
+    <string name="conf_password">Confirm Password</string>
+</resources>
