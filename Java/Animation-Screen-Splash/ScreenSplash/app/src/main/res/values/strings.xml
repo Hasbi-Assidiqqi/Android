@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ScreenSplash</string>
+    <string name="desc_of_github_image">GitHub Image</string>
+    <string name="desc_of_github_text">GitHub Text</string>
+    <string name="desc_of_app">Github User App</string>
+    <string name="animation">ANIMATION</string>
+    <string name="desc_of_image_star_moon">Image Star and Moon</string>
+    <string name="todo">TODO</string>
+    <string name="welcome">Welcome!</string>
+</resources>

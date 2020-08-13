@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:id="@+id/tv_modern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:text="@string/animation"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tv_screenSplash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_modern"
+        android:text="@string/app_name"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/img_starMoon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="140dp"
+        android:src="@drawable/img_star_moon"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/img_soil"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:src="@drawable/img_ground"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/img_mosque"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_mosque"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/img_soilRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_soil_right"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/img_soilLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_soil_left"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/todo" />
+
+</RelativeLayout>
